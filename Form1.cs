@@ -75,7 +75,8 @@ namespace emguproj2
             #endregion
 
             #region Canny and edge detection
-            watch.Reset(); watch.Start();
+            watch.Reset();
+            watch.Start();
             double cannyThresholdLinking = 120.0;
             UMat cannyEdges = new UMat();
             CvInvoke.Canny(uimage, cannyEdges, cannyThreshold, cannyThresholdLinking);
