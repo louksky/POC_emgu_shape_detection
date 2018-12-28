@@ -149,7 +149,7 @@ namespace emguproj2
             msgBuilder.Append(String.Format("Triangles & Rectangles - {0} ms; ", watch.ElapsedMilliseconds));
             #endregion
 
-            originalImageBox.Image = img.ToBitmap(); ;
+            originalImageBox.Image = img.ToBitmap();
             this.Text = msgBuilder.ToString();
 
             #region draw triangles and rectangles
@@ -179,7 +179,7 @@ namespace emguproj2
         private void button2_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
-            fileNameTextBox.Text=openFileDialog1.FileName;
+            fileNameTextBox.Text = openFileDialog1.FileName;
         }
     }
 }
