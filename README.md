@@ -7,7 +7,7 @@ POC: Show that machine can detect specific shape (Line, Triangular and Circle).
 Version: 1.1 
 Will recognize shape in image in other images.
 
-Open Comuter Vision EMGU using: C#, winforms, .net 4.5+.
+Open Comuter Vision EMGU using: C#, winforms, .net 4.5+ (4.6.1).
 
 Run in Windows 10 OS, Visual Studio 2017.
 
